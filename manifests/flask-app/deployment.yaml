@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: <your_dockerhub_user>/flask-app-gitops:<your_gitcommit_sha>
+        image: nicholgulrajani/flask-app-gitops:sha256:6ddfbf615d8414c67d86d02552eeed85a60e5f97ec2152fe97fda4b9d5c764e9
         ports:
         - containerPort: 5000
