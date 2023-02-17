@@ -32,7 +32,7 @@ terraform {
 
   backend "gcs" {
     bucket = "nicktf-state-gitops-terraform-a"
-    prefix = "gitops-terraform"
+    prefix = "terraform-gitops"
   }
 }
 
